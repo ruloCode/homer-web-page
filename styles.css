@@ -53,7 +53,7 @@ body {
  width: 90px;
 }
 .gusano2 {
- top: 90%;
+ bottom: 0%;
  left: calc(60% - 90px);
  width: 110px;
  z-index: 101;
