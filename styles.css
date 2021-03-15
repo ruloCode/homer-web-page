@@ -28,57 +28,111 @@ body {
  top: 13%;
  left: 5%;
  width: 100px;
+ animation: tostadora .3s infinite;
+
 
 }
 .tostadora2 {
  top: 10%;
  left: 72%;
  width: 90px;
+ animation: tostadora .3s infinite reverse;
+
 }
 .tostadora3 {
- top: 80%;
- right:  2%;
- width: 120px;
+ top: 82%;
+ right:  1%;
+ width: 100px;
  z-index: 101;
+ animation: tostadora .3s infinite;
+
 }
 .gusano1 {
- top: 20%;
- left: 72%;
+ top: 23%;
+ right: 2%;
  width: 90px;
 }
 .gusano2 {
  top: 90%;
  left: calc(60% - 90px);
  width: 110px;
+ z-index: 101;
 }
 .reloj1 {
  top: 30%;
  left: 5%;
  width: 50px;
+ animation: reloj 5s infinite;
 }
 .reloj2 {
  top: 70%;
  left: 5%;
  width: 50px;
+ animation: reloj 8s infinite;
+
 }
 .campana1 {
  top: 85%;
- left: 3%;
+ left: 10%;
  width: 50px;
+ animation: reloj 5s infinite reverse;
+
 }
 .campana2 {
  top: 55%;
  right: 5%;
  width: 70px;
+ animation: reloj 5s infinite ;
+ z-index: 101;
+
 }
 .boca1 {
  top: 45%;
  left: 1%;
  width: 80px;
+ animation: boca 1s infinite;
 }
 .boca2 {
  top: 35%;
  right: 1%;
  width: 100px;
  z-index: 101;
+ animation: boca2 1s infinite;
+
+}
+
+
+@keyframes boca {
+ 0% {
+  transform: rotate(0);
+ }
+ 100% {
+  transform: rotate(-45deg);
+ }
+}
+@keyframes tostadora {
+ 0% {
+  transform: rotate(0);
+ }
+ 100% {
+  transform: rotate(-10deg);
+ }
+}
+
+
+@keyframes boca2 {
+ 0% {
+  transform: rotate(0);
+ }
+ 100% {
+  transform: rotate(45deg);
+ }
+}
+@keyframes reloj {
+ 0% {
+  transform: rotate(0);
+ }
+ 100% {
+  transform: rotate(360deg);
+ }
 }
