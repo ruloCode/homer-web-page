@@ -1,0 +1,84 @@
+
+* {
+ margin: 0;
+}
+body {
+ background: #78bbcb;
+ font-family: 'Alfa Slab One', cursive;
+ text-align: center;
+ color: #070c1c;
+}
+.bgimage {
+ position: absolute;
+}
+.jesus-container {
+ position: relative;
+ height: 100vh;
+
+
+ z-index: 100;
+ align-items: center;
+ display: flex;
+ justify-content: center;
+}
+.jesus-container img {
+ height: 388px;
+}
+.tostadora1 {
+ top: 13%;
+ left: 5%;
+ width: 100px;
+
+}
+.tostadora2 {
+ top: 10%;
+ left: 72%;
+ width: 90px;
+}
+.tostadora3 {
+ top: 80%;
+ right:  2%;
+ width: 120px;
+ z-index: 101;
+}
+.gusano1 {
+ top: 20%;
+ left: 72%;
+ width: 90px;
+}
+.gusano2 {
+ top: 90%;
+ left: calc(60% - 90px);
+ width: 110px;
+}
+.reloj1 {
+ top: 30%;
+ left: 5%;
+ width: 50px;
+}
+.reloj2 {
+ top: 70%;
+ left: 5%;
+ width: 50px;
+}
+.campana1 {
+ top: 85%;
+ left: 3%;
+ width: 50px;
+}
+.campana2 {
+ top: 55%;
+ right: 5%;
+ width: 70px;
+}
+.boca1 {
+ top: 45%;
+ left: 1%;
+ width: 80px;
+}
+.boca2 {
+ top: 35%;
+ right: 1%;
+ width: 100px;
+ z-index: 101;
+}
